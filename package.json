@@ -1,0 +1,25 @@
+{
+  "name": "wf4node-mongodb-persistence",
+  "version": "1.0.0",
+  "description": "MongoDB Persistence Provider for Workflow 4 Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workflow-4-node/wf4node-mongodb-persistence.git"
+  },
+  "keywords": [
+    "workflow",
+    "mongodb",
+    "persistence",
+    "state-machine"
+  ],
+  "author": "Gabor Mezo (https://github.com/unbornchikken)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/workflow-4-node/wf4node-mongodb-persistence/issues"
+  },
+  "homepage": "https://github.com/workflow-4-node/wf4node-mongodb-persistence#readme"
+}
