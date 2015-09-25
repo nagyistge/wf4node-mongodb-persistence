@@ -1,6 +1,6 @@
 {
   "name": "wf4node-mongodb-persistence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MongoDB Persistence Provider for Workflow 4 Node",
   "main": "index.js",
   "scripts": {
