@@ -11,8 +11,4 @@ if (!es6) {
     require("traceur-runtime");
 }
 
-module.exports = {
-    common: require("./lib/" + es + "/common"),
-    activities: require("./lib/" + es + "/activities"),
-    hosting: require("./lib/" + es + "/hosting")
-};
+module.exports = require("./lib/" + es);
