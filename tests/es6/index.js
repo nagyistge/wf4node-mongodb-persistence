@@ -48,6 +48,12 @@ if (persistence) {
             });
         }
 
+        function testStopOutdatedVersions(options) {
+            it("should run by: " + getInfo(options), function (done) {
+                hostingTestCommon.doStopOutdatedVersionsTest(options).nodeify(done);
+            });
+        }
+
         let allOptions = [
             {
                 persistence: persistence,
@@ -103,6 +109,12 @@ if (persistence) {
             describe("DelayTo Example", function () {
                 for (let opt of allOptions) {
                     testDelayTo(opt);
+                }
+            });
+
+            describe("StopOutdatedVersions Example", function () {
+                for (let opt of allOptions) {
+                    testStopOutdatedVersions(opt);
                 }
             });
         });
